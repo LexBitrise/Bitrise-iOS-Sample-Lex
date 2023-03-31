@@ -6,6 +6,9 @@
 //
 
 import SwiftUI
+//import FirebaseCore
+//import FirebaseFirestore
+//import FirebaseAuth
 
 @main
 struct BitriseTestApp: App {
@@ -14,4 +17,6 @@ struct BitriseTestApp: App {
             ContentView()
         }
     }
+    
+    
 }

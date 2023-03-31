@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2186553A29D7460D00455827 /* ConfidoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2186553929D7460D00455827 /* ConfidoTest.swift */; };
 		A1F9B10725C380F200E21DE4 /* BitriseTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F9B10625C380F200E21DE4 /* BitriseTestApp.swift */; };
 		A1F9B10925C380F200E21DE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F9B10825C380F200E21DE4 /* ContentView.swift */; };
 		A1F9B10B25C380F400E21DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F9B10A25C380F400E21DE4 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2186553929D7460D00455827 /* ConfidoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfidoTest.swift; sourceTree = "<group>"; };
 		A1F9B10325C380F200E21DE4 /* BitriseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitriseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F9B10625C380F200E21DE4 /* BitriseTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitriseTestApp.swift; sourceTree = "<group>"; };
 		A1F9B10825C380F200E21DE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				A1F9B10625C380F200E21DE4 /* BitriseTestApp.swift */,
 				A1F9B10825C380F200E21DE4 /* ContentView.swift */,
+				2186553929D7460D00455827 /* ConfidoTest.swift */,
 				A1F9B10A25C380F400E21DE4 /* Assets.xcassets */,
 				A1F9B10F25C380F400E21DE4 /* Info.plist */,
 				A1F9B10C25C380F400E21DE4 /* Preview Content */,
@@ -218,7 +221,7 @@
 			);
 			mainGroup = A1F9B0FA25C380F200E21DE4;
 			packageReferences = (
-				2186553729D7392800455827 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				2186553829D7454600455827 /* XCRemoteSwiftPackageReference "onfido-ios-sdk" */,
 			);
 			productRefGroup = A1F9B10425C380F200E21DE4 /* Products */;
 			projectDirPath = "";
@@ -264,6 +267,7 @@
 			files = (
 				A1F9B10925C380F200E21DE4 /* ContentView.swift in Sources */,
 				A1F9B10725C380F200E21DE4 /* BitriseTestApp.swift in Sources */,
+				2186553A29D7460D00455827 /* ConfidoTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +306,7 @@
 		A1F9B12625C380F500E21DE4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -363,6 +368,7 @@
 		A1F9B12725C380F500E21DE4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -605,12 +611,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2186553729D7392800455827 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		2186553829D7454600455827 /* XCRemoteSwiftPackageReference "onfido-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			repositoryURL = "https://github.com/onfido/onfido-ios-sdk";
 			requirement = {
 				kind = exactVersion;
-				version = 6.7.1;
+				version = 21.2.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
